@@ -6,7 +6,7 @@ converter = opencc.OpenCC('t2s')  # 繁體中文轉簡體中文
 
 # 設定原始資料夾和目標資料夾路徑
 src_dir = './big5'
-dst_dir = './gb'
+dst_dir = './gbk'
 
 # 檢查目標資料夾是否存在，如果不存在則建立目標資料夾
 if not os.path.exists(dst_dir):
