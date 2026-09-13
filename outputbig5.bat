@@ -1,4 +1,6 @@
 python -m pip install opencc-python-reimplemented
+mkdir outputbig5
+mkdir temp
 
 python BGIScriptRepackerV2.py ./source/00 ./big5/00_tc.txt ./temp/00
 python BGIScriptRepackerV2.py ./source/01_1 ./big5/01_1_tc.txt ./temp/01_1

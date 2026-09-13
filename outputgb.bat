@@ -1,5 +1,7 @@
 @echo on
 python -m pip install opencc-python-reimplemented
+mkdir outputgbk
+mkdir temp
 setlocal enabledelayedexpansion
 
 set "temp=./temp/"
