@@ -1,5 +1,5 @@
 @echo on
-
+python -m pip install opencc-python-reimplemented
 setlocal enabledelayedexpansion
 
 set "temp=./temp/"

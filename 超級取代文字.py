@@ -8,7 +8,7 @@ for filename in os.listdir(directory):
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
         
-        content = content.replace("喫", "吃")
+        content = content.replace("」東武海斗」", "「東武海斗」")
         
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(content)
